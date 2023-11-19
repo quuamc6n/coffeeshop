@@ -1,0 +1,100 @@
+.hero{
+    background-image: url("../Assets/Images/coffee-circle.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+.title, .nav, .nav__list-item, .menu__list-item{
+    display: inline;
+}
+
+.title{
+    color: #393939;
+}
+
+.nav__list-item, .title{
+    padding-right: 20px;
+}
+
+
+.menu__list-item{
+    list-style-type: none;
+    padding-right: 20px;
+    border-left: 4px solid #5BACC3;
+    padding-left: 20px;
+    color: white;
+}
+
+.menu__list{
+    width: 100%;
+    height: 80px;
+    margin: auto 20px;
+    padding: 20px;
+    background-color: #393939;
+    text-align: center;
+}
+
+.nav__list-link{
+    text-decoration: none;
+    list-style-type: none;
+    color: #393939;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.topOfPage{
+    background-color: #FFF0ED;
+}
+
+.nav__list-link:visited{
+    color: #393939;
+}
+
+.nav__list-link:hover{
+    color: #5BACC3;
+}
+
+.heroMenu{
+    width: 275px;
+    height: 175px;
+    color: white;
+    background-color: #393939;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 4rem;
+}
+
+.coffeeBeans{
+    height: 50px;
+}
+
+.hotDrinksMenu, .pastries{
+    background-color: #FFF0ED;
+    width: 100%;
+    text-align: center;
+}
+
+.coldDrinksMenu{
+    background-color: #F7F7F7;
+    width: 100%;
+    text-align: center;
+}
+
+.pricing{
+    font-size: 1rem;
+    color: #5BACC3;
+    padding-bottom: 20px;
+}
+
+.productSnippet{
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 9rem;
+}
+
+.category{
+    padding: 20px;
+}

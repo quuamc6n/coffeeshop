@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Coffee Shop - Home</title>
+    <link href="./CSS/Landing.css" rel="stylesheet">
+    <link href="./CSS/Global.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class = nav>
+            <img src="./Assets/Images/coffee-beans-logo-and-footer.svg" alt="Coffee bean logo">
+            <h3 class = nitro>Nitro</h3>
+            <ul class = nav__list>
+                <li class = nav__list-item><a class = nav__list-link href="/Pages/menu.html">Menu</a></li>
+            </ul>
+        </nav>
+        <section class = heroSection>
+            <div class = hero>
+                <h1>Nitro Coffee</h1>
+                <p class = hero__p>Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries
+                from certain Coffea species</p>
+                <button class=shopNow>Shop Now</button>
+            </div>
+            <div class = hero__image-block>
+                <img class=hero__image src="./Assets/Images/coffeebeans-hero.png" alt="Coffee Bag">
+            </div>
+        </section>
+    </header>
+
+    <section class = mainSection>
+        <h2 class = ourProducts>Our Products</h2>
+        <main class = main>
+            <div class = product>
+                <img class = product__item-image src="./Assets/Images/coffeebeans.png" alt= "Coffee beans">
+                <h3 class = product__item>Coffee Beans</h3>
+                <p class = product__item-pricing>$18.99</p>
+            </div>
+
+            <div class = product>
+                <img class = product__item-image src="./Assets/Images/coldbrew.png" alt="Cold brew">
+                <h3 class = product__item>Cold Brew</h3>
+                <p class = product__item-pricing>$4.99</p>
+            </div>
+
+            <div class = product>
+                <img class = product__item-image src="./Assets/Images/inhousebrew.png" alt="In-house brew">
+                <h3 class = product__item>In-house Brew</h3>
+                <p class = product__item-pricing>$2.99</p>
+            </div>
+        </main>
+
+        <div class = viewAllButton>
+        <button class=viewAll>View All</button>
+        </div>
+    </section>
+
+    <section class = discountSection>
+        <div class = discount>
+            <p>Get 20% off your first order with code: <span class = discountCode>FirstNitro</span></p>
+        </div>
+    </section>
+
+    <footer class = footer>
+        <div class = footerBlock1>
+            <h3 class = footer__subject>Address</h3>
+            <p class = footer__subject-item>503 Broadway Penthouse</p>
+            <p class = footer__subject-item>New York</p>
+        </div>
+
+        <div class = footerBlock2>
+            <h3 class = footer__subject>Hours</h3>
+            <p class = footer__subject-item> <span class=time>Monday - Friday</span>: 9am - 7pm</p>
+            <p class = footer__subject-item> <span class=time>Saturday - Sunday</span>: 10am - 5pm</p>
+        </div>
+
+        <div class = footerBlock3>
+            <h3 class = footer__subject>Social</h3>
+            <img class = footer__subject-image src="./Assets/Images/Facebook-Icon.svg" alt="Facebook">
+            <img class = footer__subject-image src="./Assets/Images/Yelp-Icon.svg" alt="Yelp">
+            <img class = footer__subject-image src="./Assets/Images/Instagram-Icon.svg" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>

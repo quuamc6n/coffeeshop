@@ -1,0 +1,153 @@
+.nav, .footer, .heroSection{
+    background-color: #FFF0ED;
+    width: 100%;
+}
+
+.nav__list{
+    list-style-type: none;
+    font-size: 21px;
+}
+
+.nav__list, .nav__list-item, .nitro{
+    display: inline;
+}
+
+.nav__list-item{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.nav__list-link{
+    text-decoration: none;
+    color: #393939;
+    padding: 20px;
+}
+
+.nav{
+    height: 80px;
+}
+
+.nav__list-link:visited{
+    color: #393939;
+}
+
+.nav__list-link:hover{
+    color: #5BACC3;
+}
+
+.discount{
+    background-color: #393939;
+    width: 90%;
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    height: 8rem;
+    padding-top: 2rem;
+}
+
+.discount p{
+    font-size: 45px;
+}
+
+.discountCode{
+    font-weight: bold;
+}
+
+.discountSection{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: #5BACC3;
+    color: white;
+    width: 180px;
+    padding: 20px;
+    border-style: none;
+    font-size: 1.6rem;
+    display: block;
+}
+
+.pricing, .product__item-pricing{
+    color: #5BACC3;
+    font-size: 2rem;
+}
+
+.product{
+    width: 330px;
+    height: 440px;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px;
+    text-align: center;
+}
+
+.product__item{
+    padding: 0.8rem;
+}
+
+.main{
+    justify-content: space-evenly;
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+.mainSection{
+    background-color: #F7F7F7;
+    padding: 20px 0;
+}
+
+.footer__subject{
+    padding-bottom: 20px;
+}
+
+.time{
+    font-weight: bold;
+}
+
+.footer__subject-image{
+    width: 50px;
+}
+
+.hero, .hero__image-block{
+    width: 50%;
+    padding: 4rem;
+}
+
+.hero__image-block{
+    margin-left: 10rem;
+    padding-left: 20px;
+}
+
+.hero{
+    margin-top: 10rem;
+    margin-right: 10rem;
+}
+
+.heroSection{
+    justify-content:space-evenly;
+    display: flex;
+}
+
+.hero__p, .shopNow{
+    margin-top: 30px;
+}
+
+.ourProducts{
+    text-align: center;
+}
+
+.viewAllButton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 225px;
+}

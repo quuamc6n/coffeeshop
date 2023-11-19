@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+h1, h2{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav, h3, footer{
+    font-size: 33px;
+    font-weight: 300;
+}
